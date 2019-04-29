@@ -64,7 +64,7 @@ xfilter <- x[,c(varsvector)]
 result <- cbind(subject, y, xfilter)
 result <- select(result, -c("activitynum"))
 
+#Creates a tidy dataset with the average of each variable for each activity and each subject
+avgvar.result <- melt(result, id=c("subjectid","activity"))
+avgvar.result <- dcast(avgvar.result, subjectid+activity ~ variable, mean)
 
-result <- melt(result, id=c("subjectid","activity"))
-result <- dcast(result, subjectid+activity ~ variable, mean)
-head(result[,1:10],3)
