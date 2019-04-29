@@ -12,6 +12,7 @@ Github repo description
 
 2. run_analysis.R
   Assuming that the Samsung data is in your working directory, the run_analysis.R R Script:
+  
     A. creates a tidy dataset called result.txt that 
       - merges the training and the test sets to create one data set
       - extracts only the measurements on the mean and standard deviation for each measurement
