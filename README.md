@@ -14,13 +14,13 @@ Github repo description
 
   Assuming that the Samsung data is in your working directory, the run_analysis.R R Script:
   
-   A. creates a tidy dataset called result.txt that 
+    A. creates a tidy dataset called result.txt that 
       - merges the training and the test sets to create one data set
       - extracts only the measurements on the mean and standard deviation for each measurement
       - uses descriptive activity names to name the activities in the data set
       - appropriately labels the data set with descriptive variable names
       
-   B. creates a second, independent tidy data set called avgvar.txt with the average of each variable for each activity and each subject.
+    B. creates a second, independent tidy data set called avgvar.txt with the average of each variable for each activity and each subject.
  
  While both datasets are written to your workspace disc, the output of the script is the printed avgvar dataset
  
