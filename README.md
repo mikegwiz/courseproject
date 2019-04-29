@@ -11,6 +11,7 @@ Repo contents:
 Github repo description
 
 2. run_analysis.R
+
   Assuming that the Samsung data is in your working directory, the run_analysis.R R Script:
   
     A. creates a tidy dataset called result.txt that 
@@ -24,11 +25,14 @@ Github repo description
  While both datasets are written to your workspace disc, the output of the script is the printed avgvar dataset
  
 3. codebook_result.Rmd
+
   R Markdown file that contains the codebook for results.txt.
 
 3. codebook_result_git.md
+
   Markdown file that contains the codebook for results, but in a Git viewable format
 
 4. codebook_result.docx
+
   A word document that contains a description of the features in results.txt as well as the codebook output including the individual
   variable information.
