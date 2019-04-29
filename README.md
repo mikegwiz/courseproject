@@ -20,7 +20,9 @@ Github repo description
       - appropriately labels the data set with descriptive variable names
       
     B. creates a second, independent tidy data set called avgvar.txt with the average of each variable for each activity and each subject.
-  
+ 
+ While both datasets are written to your workspace disc, the output of the script is the printed avgvar dataset
+ 
 3. codebook_result.Rmd
   R Markdown file that contains the codebook for results.txt.
 
