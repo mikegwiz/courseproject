@@ -104,3 +104,6 @@ avgvar.result <- dcast(avgvar.result, subjectid+activity ~ variable, mean)
   # writes avgvar.result to a txt file
 write.table(avgvar.result, "avgvar.txt",row.name=FALSE)
 message("avgvar.txt table written to working directory")
+
+## Prints the final output
+print(avgvar.result)
