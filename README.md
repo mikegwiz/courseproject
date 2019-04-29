@@ -26,6 +26,9 @@ Github repo description
 3. codebook_result.Rmd
   R Markdown file that contains the codebook for results.txt.
 
+3. codebook_result_git.md
+  Markdown file that contains the codebook for results, but in a Git viewable format
+
 4. codebook_result.docx
   A word document that contains a description of the features in results.txt as well as the codebook output including the individual
   variable information.
